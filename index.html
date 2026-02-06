@@ -1,0 +1,198 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Explore Afghan Cities — Cultural Showcase</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Cultural Cities of Afghanistan</h1>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#hero">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#city-of-the-day">City of the Day</a>
+        <a href="#submit">Submit a City</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero container" aria-labelledby="hero-heading">
+      <h2 id="hero-heading">Explore Afghan Cities And Cultural Showcase</h2>
+      <p class="intro">
+        This small cultural showcase highlights a selection of Afghan cities,
+        traditional crafts and cultural notes.
+      </p>
+
+    <!-- Gallery Section-->
+    <section id="gallery" class="container gallery-section" aria-labelledby="gallery-heading">
+      <h3 id="gallery-heading">City Gallery</h3>
+      <p class="section-note">Click a card to jump to the city's detail block further down the page.</p>
+      <div class="gallery-grid">
+        <!-- Card1: Kabul -->
+        <article class="city-card" id="card-kabul">
+          <a href="#kabul" class="card-link" aria-describedby="kabul-desc">
+            <img src="https://picsum.photos/seed/kabul/800/520" alt="A scenic view representing Kabul" class="card-img">
+            <div class="card-body">
+              <h4>Kabul</h4>
+              <p id="kabul-desc" class="muted">Capital city known for its history, bazaars and mountain views.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card: Kandahar -->
+        <article class="city-card">
+          <a href="#kandahar" class="card-link" aria-describedby="kandahar-desc">
+            <img src="https://picsum.photos/seed/kandahar/800/520" alt=" Kandahar" class="card-img">
+            <div class="card-body">
+              <h4>Kandahar</h4>
+              <p id="kandahar-desc" class="muted">Historic trading center and gateway to the south.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card: Herat -->
+        <article class="city-card">
+          <a href="#herat" class="card-link" aria-describedby="herat-desc">
+            <img src="2thAssignement.jpg" alt=" Herat" class="card-img">
+            <div class="card-body">
+              <h4>Herat</h4>
+              <p id="herat-desc" class="muted">Renowned for its music, literature, and intricate tilework.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card: Mazar-e-Sharif -->
+        <article class="city-card">
+          <a href="#mazar" class="card-link" aria-describedby="mazar-desc">
+            <img src="https://picsum.photos/seed/mazar/800/520" alt="A scene evoking Mazar-e-Sharif" class="card-img">
+            <div class="card-body">
+              <h4>Mazar-e-Sharif</h4>
+
+<p id="mazar-desc" class="muted">Home of the Blue Mosque and spring celebrations.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card: Jalalabad -->
+        <article class="city-card">
+          <a href="#jalalabad" class="card-link" aria-describedby="jalalabad-desc">
+            <img src="https://picsum.photos/seed/jalalabad/800/520" alt="A scene evoking Jalalabad" class="card-img">
+            <div class="card-body">
+              <h4>Jalalabad</h4>
+              <p id="jalalabad-desc" class="muted">Known for fertile valleys and fruit orchards.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card: Bamyan -->
+        <article class="city-card">
+          <a href="#bamyan" class="card-link" aria-describedby="bamyan-desc">
+            <img src="https://picsum.photos/seed/bamyan/800/520" alt="A scene evoking Bamyan" class="card-img">
+            <div class="card-body">
+              <h4>Bamyan</h4>
+              <p id="bamyan-desc" class="muted">Famous for its dramatic cliffs, valley and ancient niches.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- City of the Day -->
+    <section id="city-of-the-day" class="container highlight" aria-labelledby="cotd-heading">
+      <h3 id="cotd-heading">City of the Day</h3>
+
+      <div class="cotd-grid">
+        <figure class="cotd-figure" aria-hidden="false">
+          <img src="https://picsum.photos/seed/herat-hero/1200/700" alt="Herat overview" class="cotd-img">
+          <figcaption class="cotd-caption">
+            <h4>Herat — A Hub of Art and Architecture</h4>
+            <p>Herat's winding alleys, historic madrassas and celebrated tilework make it a cultural jewel. The city is noted for its poets, music and artisanship in carpets and ceramics.</p>
+
+        <aside class="cotd-info">
+          <ul>
+            <li><strong>Highlights:</strong> Blue-tiled shrines, handwoven carpets, historic citadel.</li>
+            <li><strong>Cuisine:</strong> Pilaf dishes, sweet halwa and regional breads.</li>
+            <li><strong>Traditions:</strong> Music and poetry gatherings, tile artisanship.</li>
+          </ul>
+         </aside>
+      </div>
+    </section>
+
+    <!-- City detail anchors (accessible deeper info) -->
+    <section class="container details">
+      <article id="kabul" class="city-detail" aria-labelledby="kabul-title">
+        <h4 id="kabul-title">Kabul</h4>
+        <p>Kabul is Afghanistan's capital and a crossroads of cultures, with bazaars, traditional crafts and mountain panoramas. Notable sites include the old city markets and nearby historical sites.</p>
+      </article>
+
+      <article id="kandahar" class="city-detail" aria-labelledby="kandahar-title">
+        <h4 id="kandahar-title">Kandahar</h4>
+        <p>Kandahar has a long trading history and cultural significance in the south. The region is known for distinctive local textiles, bread types and communal gatherings.</p>
+      </article>
+
+      <article id="herat" class="city-detail" aria-labelledby="herat-title">
+        <h4 id="herat-title">Herat</h4>
+        <p>Herat features Persian-influenced architecture, especially tilework on mosques and madrassas. It has been a cultural center for centuries.</p>
+      </article>
+
+      <article id="mazar" class="city-detail" aria-labelledby="mazar-title">
+        <h4 id="mazar-title">Mazar-e-Sharif</h4>
+        <p>Mazar-e-Sharif hosts festive spring celebrations like Nowruz and is known for its colorful shrines and markets.</p>
+      </article>
+
+<article id="jalalabad" class="city-detail" aria-labelledby="jalalabad-title">
+        <h4 id="jalalabad-title">Jalalabad</h4>
+        <p>Jalalabad sits on important trade routes and is surrounded by fruit-producing valleys; local cuisine and hospitality are central to its culture.</p>
+      </article>
+
+      <article id="bamyan" class="city-detail" aria-labelledby="bamyan-title">
+        <h4 id="bamyan-title">Bamyan</h4>
+        <p>Bamyan is famous for its dramatic valley and archaeological niches. The landscape has inspired local crafts and storytelling traditions for generations.</p>
+      </article>
+    </section>
+
+    <!-- Submit a City (simple form) -->
+    <section id="submit" class="container submit-section" aria-labelledby="submit-heading">
+      <h3 id="submit-heading">Submit a City</h3>
+      <form class="submit-form">
+        <div class="form-row">
+          <label for="your-name">Your name</label>
+          <input id="your-name" name="name" type="text" placeholder="Full name" >
+        </div>
+
+        <div class="form-row">
+          <label for="city-name">City name</label>
+          <input id="city-name" name="city" type="text" placeholder="e.g. Herat" >
+        </div>
+
+        <div class="form-row">
+          <label for="city-desc">Short description</label>
+          <textarea id="city-desc" name="description" rows="4" placeholder="A couple of sentences about the city" ></textarea>
+        </div>
+
+        <div class="form-row">
+          <label for="image-url">Image URL (optional)</label>
+          <input id="image-url" name="image" type="url" placeholder="...">
+        </div>
+
+        <div>
+          <button type="submit" class="btn">Submit</button>
+          <button type="reset" class="btn btn-secondary">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Cultural Cities Showcase — built with Love.</p>
+    </div>
+  </footer>
+</body>
+</html>
